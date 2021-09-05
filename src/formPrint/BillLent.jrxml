@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="BillLent" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="f733e7c8-3776-424d-a126-f21df85d7e73">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="ireport.layers" value="##Thu Apr 15 12:20:44 ICT 2021\nlayer.1.name=Layer 1\nlayer.1.visible=true\nlayer.1.id=1\nlayer.0.name=Background\nlayer.0.visible=true\nlayer.0.id=0"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch">
+			<staticText>
+				<reportElement x="68" y="0" width="430" height="67" uuid="0ace4fa1-8fbf-43e2-b246-fc01a417167e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="30" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Bill Lent]]></text>
+			</staticText>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="265" splitType="Stretch">
+			<staticText>
+				<reportElement x="101" y="56" width="100" height="22" uuid="f699d4c2-662b-4c86-a382-9460a50fefd0"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[ID Reader]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="218" y="56" width="260" height="22" uuid="d4745531-e6f0-49d6-a30e-8c4d0efb83d5"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+			</textField>
+			<staticText>
+				<reportElement x="101" y="94" width="100" height="20" uuid="5005fb68-4748-414f-9a6e-b52d62bfb6bd"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Date Borrow]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="218" y="94" width="260" height="20" uuid="f0806b97-d779-4aa4-a1f8-9383c44e5a98"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+			</textField>
+			<staticText>
+				<reportElement x="101" y="130" width="100" height="20" uuid="6ad60c5a-4523-40ee-a078-d2f5c4837fe8"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[Date Expiry]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="218" y="130" width="260" height="20" uuid="2dc58376-6891-4e1c-928e-f8eeac16a3b9"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+			</textField>
+			<staticText>
+				<reportElement x="101" y="172" width="100" height="20" uuid="7f58e53b-da29-43e6-a8a0-24cfe0ec62e6"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[List Book]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="218" y="172" width="260" height="20" uuid="81877095-892a-408e-a774-2cd93ed8a162"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+			</textField>
+			<staticText>
+				<reportElement x="163" y="213" width="217" height="36" uuid="8ed1eb08-b390-413e-9b51-fd4354130250"/>
+				<textElement>
+					<font size="18"/>
+				</textElement>
+				<text><![CDATA[Sign name, write full name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="101" y="22" width="100" height="20" uuid="f63f45eb-f603-4e1d-8c04-dd0d814fbc52"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+				<text><![CDATA[ID Bill Lent]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="218" y="22" width="260" height="20" uuid="6683ab08-802f-4150-904d-61fd3f97c3cc"/>
+				<textElement>
+					<font size="15"/>
+				</textElement>
+			</textField>
+		</band>
+		<band height="50"/>
+		<band height="50"/>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="55" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
